@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Parent {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 20px 200px;
+}
+.item{
+    flex: 1 1 30%;
+    height: 300px;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    cursor: pointer;
+    transition: 0.8s ease-in-out;
+
+}
+
+img:hover {
+    transform: scale(1.3);
+    /* filter: brightness(0.5); */
+    filter:grayscale(0.3)
+
+}
